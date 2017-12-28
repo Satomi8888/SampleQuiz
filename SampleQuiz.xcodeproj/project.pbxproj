@@ -12,6 +12,8 @@
 		AB6458291FF49D7600ADD52E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6458271FF49D7600ADD52E /* Main.storyboard */; };
 		AB64582B1FF49D7600ADD52E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB64582A1FF49D7600ADD52E /* Assets.xcassets */; };
 		AB64582E1FF49D7600ADD52E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB64582C1FF49D7600ADD52E /* LaunchScreen.storyboard */; };
+		AB6458371FF49DBD00ADD52E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6458361FF49DBD00ADD52E /* AudioToolbox.framework */; };
+		AB6458391FF4A02F00ADD52E /* taiko01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6458381FF4A02F00ADD52E /* taiko01.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AB64582A1FF49D7600ADD52E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB64582D1FF49D7600ADD52E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB64582F1FF49D7600ADD52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB6458361FF49DBD00ADD52E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AB6458381FF4A02F00ADD52E /* taiko01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = taiko01.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6458371FF49DBD00ADD52E /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				AB6458221FF49D7600ADD52E /* SampleQuiz */,
 				AB6458211FF49D7600ADD52E /* Products */,
+				AB6458351FF49DBD00ADD52E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +62,21 @@
 			children = (
 				AB6458231FF49D7600ADD52E /* AppDelegate.swift */,
 				AB6458251FF49D7600ADD52E /* ViewController.swift */,
+				AB6458381FF4A02F00ADD52E /* taiko01.mp3 */,
 				AB6458271FF49D7600ADD52E /* Main.storyboard */,
 				AB64582A1FF49D7600ADD52E /* Assets.xcassets */,
 				AB64582C1FF49D7600ADD52E /* LaunchScreen.storyboard */,
 				AB64582F1FF49D7600ADD52E /* Info.plist */,
 			);
 			path = SampleQuiz;
+			sourceTree = "<group>";
+		};
+		AB6458351FF49DBD00ADD52E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB6458361FF49DBD00ADD52E /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +140,7 @@
 			files = (
 				AB64582E1FF49D7600ADD52E /* LaunchScreen.storyboard in Resources */,
 				AB64582B1FF49D7600ADD52E /* Assets.xcassets in Resources */,
+				AB6458391FF4A02F00ADD52E /* taiko01.mp3 in Resources */,
 				AB6458291FF49D7600ADD52E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
